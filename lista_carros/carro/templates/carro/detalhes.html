@@ -1,0 +1,15 @@
+{% extends 'carro/base.html' %}
+
+{% block 'conteudo'%}
+
+<h1 class="mt-5">{{ carro.nome }}</h1>
+<dl>
+
+    <dt>Data criação</dt>
+    <dd>{{ carro.ano }}</dd>
+
+    <dt>Categoria</dt>
+    <dd>{{ carro.categoria }}</dd>
+
+</dl>
+{%endblock%}
